@@ -47,6 +47,10 @@ public class addToCart extends BaseForAmazon
   @BeforeMethod
   public void processOfAddToCart() throws InterruptedException, IOException
   {
+	  
+	  
+	  
+	  
 	  home.enteringProduct("product1");
 	  
 	  UtilityPropertyAmazon.Wait(driver, 1000);

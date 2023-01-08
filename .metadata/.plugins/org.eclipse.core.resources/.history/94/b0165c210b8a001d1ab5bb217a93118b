@@ -1,0 +1,13 @@
+package InterfaceStudy;
+
+public interface Interface1 
+{
+	
+	void test1();
+	void test();
+	void test3();
+	void test4();
+	
+	
+
+}

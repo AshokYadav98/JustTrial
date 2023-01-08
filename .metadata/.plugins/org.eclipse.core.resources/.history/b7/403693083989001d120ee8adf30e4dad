@@ -1,0 +1,17 @@
+package DisadvantagesOfHardAssert;
+
+import org.testng.annotations.Test;
+
+public class SoftAssertStudy 
+{
+	int a=10;
+	int b=10;
+	boolean c=true; 
+	
+	
+  @Test
+  public void A() 
+  {
+	  
+  }
+}

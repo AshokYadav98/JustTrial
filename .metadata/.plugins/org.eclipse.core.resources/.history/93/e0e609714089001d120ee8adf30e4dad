@@ -1,0 +1,30 @@
+package logicalprogrampractice;
+
+import java.util.Scanner;
+
+public class ReverseString {
+
+	public static void main(String[] args) 
+	{
+		
+		Scanner sc=new Scanner(System.in);
+		
+		String orignalString = sc.next();
+		
+		String reverse="";
+		
+		System.out.println("please enter any number");
+		
+		for(int i=0;i<=orignalString.length()-1;i--)
+		{
+			char t = orignalString.charAt(i);
+			
+			reverse=reverse+t;
+		}
+		System.out.println("original string is "+orignalString);
+		System.out.println("Reverse string is "+reverse);
+
+		
+	}
+	
+}

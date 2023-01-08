@@ -1,0 +1,23 @@
+package logicalprogrampractice;
+
+public class ReverseNumberWithoutString {
+
+	public static void main(String[] args) 
+	{
+		
+		int a=4567;
+		
+		int rev=0;
+		
+		for(int i=a;i>0;i=i/10)
+		{
+			int rem = i;
+			
+			rev=rev*10+rem;
+		}
+		
+		
+
+	}
+
+}

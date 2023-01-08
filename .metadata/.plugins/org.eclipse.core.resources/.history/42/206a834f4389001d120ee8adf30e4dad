@@ -1,0 +1,23 @@
+package logicalprogrampractice;
+
+public class ReverseNumberUsingString {
+
+	public static void main(String[] args) 
+	{
+		
+		int OrgNum=1234;
+		
+		String StringNum = Integer.toString(OrgNum);
+		
+		String rev="";
+		
+		for(int i=StringNum.length()-1;i>=0;i--)
+		{
+			char t = StringNum.charAt(i);
+			rev=rev+t;
+		}
+		System.out.println("rev");
+
+	}
+
+}

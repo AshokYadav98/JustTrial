@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-12-11T20:56:52 IST" name="Suite" finished-at="2022-12-11T20:57:03 IST" duration-ms="10863">
+    <groups>
+    </groups>
+    <test started-at="2022-12-11T20:56:52 IST" name="Test" finished-at="2022-12-11T20:56:59 IST" duration-ms="7235">
+      <class name="CrossBrowserStudy.crossBrowserTesting">
+        <test-method signature="BrowserTest(java.lang.String)[pri:0, instance:CrossBrowserStudy.crossBrowserTesting@6404f418]" started-at="2022-12-11T20:56:52 IST" name="BrowserTest" finished-at="2022-12-11T20:56:59 IST" duration-ms="7164" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BrowserTest -->
+      </class> <!-- CrossBrowserStudy.crossBrowserTesting -->
+    </test> <!-- Test -->
+    <test started-at="2022-12-11T20:56:59 IST" name="Test1" finished-at="2022-12-11T20:57:03 IST" duration-ms="3535">
+      <class name="CrossBrowserStudy.crossBrowserTesting">
+        <test-method signature="BrowserTest(java.lang.String)[pri:0, instance:CrossBrowserStudy.crossBrowserTesting@2892d68]" started-at="2022-12-11T20:56:59 IST" name="BrowserTest" finished-at="2022-12-11T20:57:03 IST" duration-ms="3522" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BrowserTest -->
+      </class> <!-- CrossBrowserStudy.crossBrowserTesting -->
+    </test> <!-- Test1 -->
+  </suite> <!-- Suite -->
+</testng-results>

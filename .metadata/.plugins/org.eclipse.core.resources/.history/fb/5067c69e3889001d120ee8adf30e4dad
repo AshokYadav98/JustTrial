@@ -1,0 +1,9 @@
+package DisadvantagesOfHardAssert;
+
+import org.testng.annotations.Test;
+
+public class SoftAssertStudy {
+  @Test
+  public void f() {
+  }
+}

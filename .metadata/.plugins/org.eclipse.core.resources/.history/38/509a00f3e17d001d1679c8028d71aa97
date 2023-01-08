@@ -1,0 +1,25 @@
+package logicalPrograms;
+
+import java.util.Scanner;
+
+public class factorial {
+
+	public static void main(String[] args) 
+	{
+		
+		//5!=5*4*3*2*1=120
+		
+		Scanner sc=new Scanner(System.in);
+		
+		int Num = sc.nextInt();
+		
+		int fact=1;
+		
+		System.out.println("please enter any number");
+		
+		
+				
+				
+	}
+
+}

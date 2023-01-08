@@ -1,0 +1,24 @@
+package StringBufferClassStudy;
+
+public class StringbufferTryl1 {
+
+	public static void main(String[] args) 
+	{
+		
+		String name="Ashok";
+		
+		StringBuffer b=new StringBuffer("Yadav");
+		
+	
+	
+	   System.out.println(b.append(" Ashok"));
+	   
+	   System.out.println(b.reverse());
+	   
+	   System.out.println(b.insert(10, true));
+	   
+	   
+
+	}
+
+}

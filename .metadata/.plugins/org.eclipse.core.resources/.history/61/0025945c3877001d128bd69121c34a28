@@ -1,0 +1,16 @@
+package StringBufferClassStudy;
+
+public class StringbufferTryl1 {
+
+	public static void main(String[] args) 
+	{
+		
+		String name="Ashok";
+		
+		StringBuffer b=new StringBuffer("Yadav");
+		
+	b.append("Ashok");
+
+	}
+
+}

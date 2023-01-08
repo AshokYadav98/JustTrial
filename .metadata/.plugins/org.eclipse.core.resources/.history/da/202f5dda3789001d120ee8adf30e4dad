@@ -1,0 +1,21 @@
+package DisadvantagesOfHardAssert;
+
+import org.testng.Assert;
+import org.testng.annotations.Test;
+
+public class HardAssertStudy 
+{
+  String a="ashok";
+  String b="ashok";
+  String c=null;
+  @Test
+  public void A() 
+  {
+	  
+	  Assert.assertNotEquals(a,b,"TC failed a and b are equal");
+	  
+	  
+	  
+	  
+  }
+}

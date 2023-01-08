@@ -1,0 +1,30 @@
+package logicalPrograms;
+
+public class MultiplicationWithoutOperator {
+
+	public static void main(String[] args) 
+	{
+		
+		int a=50;
+		int b=60;
+		
+		int mult=0;
+		
+		//5*3=15 ,5+5+5  ,3+3+3+3+3
+		
+		for(int i=1;i<=60;i++)
+		{
+			
+			mult=mult+a;
+			
+			//50=0+50
+			//100=50+50
+			
+		}
+		
+		System.out.println(mult);
+		
+
+	}
+
+}

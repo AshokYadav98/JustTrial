@@ -1,0 +1,37 @@
+package NokariTest;
+
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Test;
+
+import NokariBase.BaseClass;
+
+public class TestCaseNokari extends BaseClass
+{
+	@BeforeClass
+	public void launchBrowser()
+	{
+		launchbrowser();
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+  @Test
+  public void f() 
+  {
+  }
+}

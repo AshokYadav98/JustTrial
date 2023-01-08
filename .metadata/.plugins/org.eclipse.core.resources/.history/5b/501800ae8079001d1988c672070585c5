@@ -1,0 +1,27 @@
+package logicalPrograms;
+
+public class ReverseTheNumberWithoutString {
+
+	public static void main(String[] args)
+	{
+		
+		int orginalNum=7845;
+		
+		int reverseNum=0;
+		
+		for(int i=orginalNum;i>=0;i=i/10)//7845
+		{
+			int rem = i%10;//5 4 8 7
+			
+			reverseNum=reverseNum*10+rem;
+			//5=0*10+5
+			//54=5*10+4
+			//548=54*10+8
+			//5487=548*10+7
+			
+		}
+		System.out.println("Reverse number is "+reverseNum);
+
+	}
+
+}

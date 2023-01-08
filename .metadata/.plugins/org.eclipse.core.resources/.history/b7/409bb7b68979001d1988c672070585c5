@@ -1,0 +1,26 @@
+package logicalPrograms;
+
+public class NoOfWhiteSpaces {
+
+	public static void main(String[] args) 
+	{
+		
+		String name="  as hok  ";
+		
+		int count=0;
+		
+		for(int i=0;i<=name.length()-1;i++)
+		{
+			char t = name.charAt(i);
+			
+			char space=' ';
+			
+			if(t==space)
+			{
+				count++;
+			}
+			System.out.println("No of blank spaces in string are "+count);
+		}
+	}
+
+}

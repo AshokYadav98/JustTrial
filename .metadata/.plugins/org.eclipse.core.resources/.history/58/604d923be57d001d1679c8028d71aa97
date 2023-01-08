@@ -1,0 +1,14 @@
+package logicalPrograms;
+
+public class BlankspaceCount {
+
+	public static void main(String[] args) 
+	{
+		
+		String name="a ur  an  gab  ad  ";
+		
+		
+
+	}
+
+}

@@ -1,0 +1,27 @@
+package NokariBase;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.Reporter;
+
+public class BaseClass 
+{
+	WebDriver driver;
+	public void launchBrowser()
+	{
+		
+	    System.setProperty("webdriver.chrome.driver", "F:\\MY DOCUMENTS\\my new selenium file\\chromedriver_win32\\chromedriver.exe");
+	
+        driver=new ChromeDriver();
+	
+	    driver.manage().window().maximize();
+	
+	    driver.get("https://neostox.com/");
+	
+	    Reporter.log("Launching the browser ", true);
+
+	}
+	
+	
+
+}

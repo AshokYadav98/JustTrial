@@ -1,0 +1,12 @@
+package logicalPrograms;
+
+public class ReverseNumberWithoutString
+{
+
+	public static void main(String[] args) 
+	{
+		
+
+	}
+
+}

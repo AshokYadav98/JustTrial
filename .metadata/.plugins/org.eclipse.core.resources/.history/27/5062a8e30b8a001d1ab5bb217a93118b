@@ -1,0 +1,14 @@
+package InterfaceStudy;
+
+public interface Interface2 
+{
+	void test5();
+	void test6();
+	default void test3()
+	{
+		System.out.println("I am test3 method of interface2");
+	}
+	void test4();
+	
+
+}

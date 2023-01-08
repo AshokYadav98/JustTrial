@@ -1,0 +1,97 @@
+package ActionClassStudy;
+
+import java.awt.event.ActionEvent;
+
+import org.openqa.selenium.Alert;
+import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.interactions.Actions;
+
+public class DoubleClickANDRightClick {
+
+	public static void main(String[] args) throws InterruptedException 
+	{
+		 System.setProperty("webdriver.chrome.driver", "F:\\MY DOCUMENTS\\my new selenium file\\chromedriver_win32\\chromedriver.exe");
+			
+		 WebDriver driver=new ChromeDriver();
+				
+	     driver.manage().window().maximize();
+				
+	     driver.get(("https://demo.guru99.com/test/simple_context_menu.html"));
+	     
+	     //1.Double Click
+	     
+	     WebElement DoubleClickButton = driver.findElement(By.xpath("//button[text()='Double-Click Me To See Alert']"));
+	     
+	     Actions act=new Actions(driver);
+	     
+//	     act.moveToElement(DoubleClickButton).perform();
+//	     act.doubleClick().perform();
+//	     act.moveToElement(DoubleClickButton).doubleClick().build().perform();
+//	     
+	     Thread.sleep(1000);
+	     
+	     act.doubleClick(DoubleClickButton).perform();
+	     
+	     Alert alt = driver.switchTo().alert();
+	    
+	    alt.accept();
+	     
+	     //2.Right Click ---> Contaxt Click
+	     
+	     Thread.sleep(1000);
+	     
+	     WebElement RightClickButton = driver.findElement(By.xpath("//span[text()='right click me']"));
+	     
+	   //  act.moveToElement(RightClickButton).contextClick().build().perform();
+	    	
+	     act.contextClick(RightClickButton).perform();
+	     
+	     Thread.sleep(1000);
+	     
+	     
+	     driver.findElement(By.xpath("(//ul[@class='context-menu-list context-menu-root']//li)[4]")).click();
+	  
+	     Thread.sleep(1000);
+	     
+	     alt.accept();
+	     
+	     
+	     act.moveToElement(RightClickButton).click().build().perform();
+	     
+	     act.keyDown(RightClickButton, Keys.ARROW_DOWN).perform();
+	     
+	     
+	     
+	     
+	     
+	     
+	     
+	     
+	     
+	     
+//	     act.keyDown(RightClickButton, Keys.ARROW_DOWN).perform();
+//	     Thread.sleep(1000);
+//	     act.keyDown(RightClickButton, Keys.ARROW_DOWN).perform();
+//	     Thread.sleep(1000);
+//	     act.keyDown(RightClickButton, Keys.ARROW_DOWN).perform();
+//	     
+//	     Thread.sleep(1000);
+//	     
+//	     act.sendKeys(Keys.ENTER).perform();
+//	     
+///	     Thread.sleep(1000);
+//	     act.keyDown(RightClickButton, Keys.ARROW_DOWN).perform();
+//	     Thread.sleep(1000);
+//	     act.keyDown(RightClickButton, Keys.ARROW_DOWN).perform();
+//	     
+	    
+			
+			
+
+	}
+
+}

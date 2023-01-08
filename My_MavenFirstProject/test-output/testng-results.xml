@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="0" failed="0" skipped="2">
+  <reporter-output>
+    <line>
+      <![CDATA[Launching the browser ]]>
+    </line>
+    <line>
+      <![CDATA[waiting for element]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on sign in button]]>
+    </line>
+    <line>
+      <![CDATA[waiting for element]]>
+    </line>
+    <line>
+      <![CDATA[waiting for element]]>
+    </line>
+    <line>
+      <![CDATA[TC validateNeoStoxUserName is skipped please check ]]>
+    </line>
+    <line>
+      <![CDATA[TC validateNeoStoxAccBalance is skipped please check ]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2022-12-11T21:03:56 IST" name="Default suite" finished-at="2022-12-11T21:04:10 IST" duration-ms="13390">
+    <groups>
+    </groups>
+    <test started-at="2022-12-11T21:03:56 IST" name="Default test" finished-at="2022-12-11T21:04:10 IST" duration-ms="13390">
+      <class name="neoStoxTest.ValidateNeoStoxUsername">
+        <test-method is-config="true" signature="LaunchBrowser()[pri:0, instance:neoStoxTest.ValidateNeoStoxUsername@7bab3f1a]" started-at="2022-12-11T21:03:56 IST" name="LaunchBrowser" finished-at="2022-12-11T21:04:08 IST" duration-ms="11666" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Launching the browser ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowser -->
+        <test-method is-config="true" signature="LogintoNeostox()[pri:0, instance:neoStoxTest.ValidateNeoStoxUsername@7bab3f1a]" started-at="2022-12-11T21:04:08 IST" name="LogintoNeostox" finished-at="2022-12-11T21:04:10 IST" duration-ms="1625" status="FAIL">
+          <exception class="java.io.IOException">
+            <message>
+              <![CDATA[Your InputStream was neither an OLE2 stream, nor an OOXML stream or you haven't provide the poi-ooxml*.jar in the classpath/modulepath - FileMagic: OOXML, having providers: [org.apache.poi.hssf.usermodel.HSSFWorkbookFactory@15d0849]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.io.IOException: Your InputStream was neither an OLE2 stream, nor an OOXML stream or you haven't provide the poi-ooxml*.jar in the classpath/modulepath - FileMagic: OOXML, having providers: [org.apache.poi.hssf.usermodel.HSSFWorkbookFactory@15d0849]
+at org.apache.poi.ss.usermodel.WorkbookFactory.wp(WorkbookFactory.java:334)
+at org.apache.poi.ss.usermodel.WorkbookFactory.create(WorkbookFactory.java:311)
+at org.apache.poi.ss.usermodel.WorkbookFactory.create(WorkbookFactory.java:277)
+at org.apache.poi.ss.usermodel.WorkbookFactory.create(WorkbookFactory.java:255)
+at neoStoxUtilityMaven.Utility.Exelsheetreading(Utility.java:29)
+at neoStoxTest.ValidateNeoStoxUsername.LogintoNeostox(ValidateNeoStoxUsername.java:55)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.io.IOException -->
+          <reporter-output>
+            <line>
+              <![CDATA[waiting for element]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on sign in button]]>
+            </line>
+            <line>
+              <![CDATA[waiting for element]]>
+            </line>
+            <line>
+              <![CDATA[waiting for element]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- LogintoNeostox -->
+        <test-method signature="validateNeoStoxUserName()[pri:-1, instance:neoStoxTest.ValidateNeoStoxUsername@7bab3f1a]" started-at="2022-12-11T21:04:10 IST" name="validateNeoStoxUserName" finished-at="2022-12-11T21:04:10 IST" duration-ms="0" status="SKIP">
+          <exception class="java.io.IOException">
+            <message>
+              <![CDATA[Your InputStream was neither an OLE2 stream, nor an OOXML stream or you haven't provide the poi-ooxml*.jar in the classpath/modulepath - FileMagic: OOXML, having providers: [org.apache.poi.hssf.usermodel.HSSFWorkbookFactory@15d0849]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.io.IOException: Your InputStream was neither an OLE2 stream, nor an OOXML stream or you haven't provide the poi-ooxml*.jar in the classpath/modulepath - FileMagic: OOXML, having providers: [org.apache.poi.hssf.usermodel.HSSFWorkbookFactory@15d0849]
+at org.apache.poi.ss.usermodel.WorkbookFactory.wp(WorkbookFactory.java:334)
+at org.apache.poi.ss.usermodel.WorkbookFactory.create(WorkbookFactory.java:311)
+at org.apache.poi.ss.usermodel.WorkbookFactory.create(WorkbookFactory.java:277)
+at org.apache.poi.ss.usermodel.WorkbookFactory.create(WorkbookFactory.java:255)
+at neoStoxUtilityMaven.Utility.Exelsheetreading(Utility.java:29)
+at neoStoxTest.ValidateNeoStoxUsername.LogintoNeostox(ValidateNeoStoxUsername.java:55)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.io.IOException -->
+          <reporter-output>
+            <line>
+              <![CDATA[TC validateNeoStoxUserName is skipped please check ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validateNeoStoxUserName -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:neoStoxTest.ValidateNeoStoxUsername@7bab3f1a]" started-at="2022-12-11T21:04:10 IST" name="logout" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1670772850312" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="LogintoNeostox()[pri:0, instance:neoStoxTest.ValidateNeoStoxUsername@7bab3f1a]" started-at="2022-12-11T21:04:10 IST" name="LogintoNeostox" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1670772850317" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogintoNeostox -->
+        <test-method signature="validateNeoStoxAccBalance()[pri:0, instance:neoStoxTest.ValidateNeoStoxUsername@7bab3f1a]" started-at="2022-12-11T21:04:10 IST" name="validateNeoStoxAccBalance" finished-at="2022-12-11T21:04:10 IST" duration-ms="0" status="SKIP">
+          <exception class="java.io.IOException">
+            <message>
+              <![CDATA[Your InputStream was neither an OLE2 stream, nor an OOXML stream or you haven't provide the poi-ooxml*.jar in the classpath/modulepath - FileMagic: OOXML, having providers: [org.apache.poi.hssf.usermodel.HSSFWorkbookFactory@15d0849]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.io.IOException: Your InputStream was neither an OLE2 stream, nor an OOXML stream or you haven't provide the poi-ooxml*.jar in the classpath/modulepath - FileMagic: OOXML, having providers: [org.apache.poi.hssf.usermodel.HSSFWorkbookFactory@15d0849]
+at org.apache.poi.ss.usermodel.WorkbookFactory.wp(WorkbookFactory.java:334)
+at org.apache.poi.ss.usermodel.WorkbookFactory.create(WorkbookFactory.java:311)
+at org.apache.poi.ss.usermodel.WorkbookFactory.create(WorkbookFactory.java:277)
+at org.apache.poi.ss.usermodel.WorkbookFactory.create(WorkbookFactory.java:255)
+at neoStoxUtilityMaven.Utility.Exelsheetreading(Utility.java:29)
+at neoStoxTest.ValidateNeoStoxUsername.LogintoNeostox(ValidateNeoStoxUsername.java:55)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.io.IOException -->
+          <reporter-output>
+            <line>
+              <![CDATA[TC validateNeoStoxAccBalance is skipped please check ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validateNeoStoxAccBalance -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:neoStoxTest.ValidateNeoStoxUsername@7bab3f1a]" started-at="2022-12-11T21:04:10 IST" name="logout" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1670772850324" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:neoStoxTest.ValidateNeoStoxUsername@7bab3f1a]" started-at="2022-12-11T21:04:10 IST" name="closeBrowser" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1670772850330" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- neoStoxTest.ValidateNeoStoxUsername -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

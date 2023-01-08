@@ -1,0 +1,22 @@
+package logicalPrograms;
+
+import java.util.Scanner;
+
+public class reverseTheNumber {
+
+	public static void main(String[] args) 
+	{
+		
+		Scanner sc=new Scanner(System.in);
+		
+		int orgNum = sc.nextInt();
+		
+		String orgstringNum = Integer.toString(orgNum);
+		
+		String reverse="";
+		
+		
+
+	}
+
+}

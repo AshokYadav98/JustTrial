@@ -1,0 +1,73 @@
+package NokariTest;
+
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Test;
+
+import NokariBase.BaseClass;
+import NokariPOM.Homepage;
+import NokariPOM.LoginPage;
+
+public class TestCaseNokari extends BaseClass
+{
+	LoginPage login;
+	Homepage home;
+	@BeforeClass
+	public void launchBrowser()
+	{
+		launchBrowser();
+		
+		login=new LoginPage (driver);
+		Homepage home=new Homepage (driver);
+	}
+	@BeforeMethod
+	public void login()
+	{
+		
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+  private void launchbrowser() {
+		// TODO Auto-generated method stub
+		
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@Test
+  public void f() 
+  {
+  }
+}

@@ -1,0 +1,25 @@
+package UtilityForNokari;
+
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.util.Properties;
+
+public class Utilty_Nokari 
+{
+	
+	public static String readingPropertiFile(String key) throws IOException
+	{
+		Properties prop=new Properties();
+		
+		FileInputStream myfile= new FileInputStream("C:\\Users\\ASHOK\\OneDrive\\Pictures\\Documents\\ASHOK\\.metadata\\.metadata\\.plugins\\.metadata\\.plugins\\My_MavenFirstProject\\src\\NokariFile.properties");
+		
+	    prop.load(myfile);
+	    
+	     String value = prop.getProperty(key);
+	     
+	     return value;
+	
+	}
+
+}

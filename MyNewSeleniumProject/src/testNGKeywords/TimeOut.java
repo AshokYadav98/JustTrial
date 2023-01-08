@@ -1,0 +1,29 @@
+package testNGKeywords;
+
+import org.testng.Reporter;
+import org.testng.annotations.Test;
+
+public class TimeOut {
+  @Test(timeOut = 200)
+  public void D() throws InterruptedException
+  {
+	  Thread.sleep(500);
+	  Reporter.log("method D is running", true);
+  }
+  //ThreadTimeoutException--->reason of fail-->didn't finish within the time-out 200
+  @Test
+  public void B()
+  {
+	  Reporter.log("method B is running", true);
+  }
+  @Test
+  public void C()
+  {
+	  Reporter.log("method C is running", true);
+  }
+  @Test
+  public void A()
+  {
+	  Reporter.log("method A is running", true);
+  }
+}

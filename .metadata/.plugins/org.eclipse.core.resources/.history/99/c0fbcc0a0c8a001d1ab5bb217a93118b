@@ -1,0 +1,55 @@
+package InterfaceStudy;
+
+public class ImplementationClass implements Interface1,Interface2
+{
+
+	public static void main(String[] args) 
+	{
+		ImplementationClass IC =new ImplementationClass();
+		
+		IC.test1();
+		IC.test();
+		IC.test5();
+		IC.test6();
+		IC.test3();
+
+	}
+
+	@Override
+	public void test5() 
+	{
+		System.out.println("i am test5 methode from interfce2");
+		
+	}
+
+	@Override
+	public void test6() 
+	{
+		System.out.println("i am test6 methode from interfce2");
+		
+	}
+
+	@Override
+	public void test1()
+	{
+		System.out.println("i am test1 methode from interfce1");
+	}
+
+	@Override
+	public void test() 
+	{
+		System.out.println("i am test methode from interfce1");
+		
+	}
+
+	@Override
+	public void test3() 
+	{
+		Interface1.super.test3(); 
+		Interface2.super.test3();
+		
+	}
+
+	
+
+}

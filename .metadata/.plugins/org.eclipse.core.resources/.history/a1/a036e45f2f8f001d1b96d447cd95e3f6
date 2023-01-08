@@ -1,0 +1,9 @@
+package NokariTest;
+
+import org.testng.annotations.Test;
+
+public class TestCaseNokari {
+  @Test
+  public void f() {
+  }
+}

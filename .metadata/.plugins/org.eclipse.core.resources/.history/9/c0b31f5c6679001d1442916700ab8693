@@ -1,0 +1,32 @@
+package logicalPrograms;
+
+import java.util.Scanner;
+
+public class reverseTheNumber {
+
+	public static void main(String[] args) 
+	{
+		//a=1245-->5
+		
+		Scanner sc=new Scanner(System.in);
+		
+		int orgNum = sc.nextInt();
+		
+		String orgstringNum = Integer.toString(orgNum);
+		
+		String reverse="";
+		
+		for(int i=orgstringNum.length()-1;i>=0;i--)
+		{
+			char t = orgstringNum.charAt(i);
+			
+			reverse=reverse+t;
+		}
+		System.out.println(reverse);
+		
+		
+		
+
+	}
+
+}

@@ -1,0 +1,23 @@
+package logicalPrograms;
+
+import java.util.Scanner;
+
+public class evenandoddStudy {
+
+	public static void main(String[] args) 
+	{
+	
+       Scanner sc=new Scanner(System.in);
+       
+       System.out.println("enter any number");
+	    
+	   int number = sc.nextInt();
+	   
+	   
+	   
+	   
+		
+
+	}
+
+}

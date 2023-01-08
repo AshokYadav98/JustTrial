@@ -85,11 +85,6 @@ public class addToCart extends BaseForAmazon
 	  Assert.assertEquals(ship.gettingSubTotalAmount(), UtilityPropertyAmazon.readDataFromPropertyFile("expsubtotal"));
 	  
 	  
-	  
-	  
-	  
-	  
-	  
   }
   @AfterClass
   public void closeBrowser()
